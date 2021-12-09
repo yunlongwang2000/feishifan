@@ -1,0 +1,144 @@
+/* QSS样式表 */
+
+/* 设置左侧最顶端的窗口控制按钮 */
+QPushButton#left_close
+{
+    max-width: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    background-color: #F76677;
+    border-radius: 10px;
+}
+
+QPushButton#left_close:hover
+{
+    background-color: red;
+}
+
+QPushButton#left_mini
+{
+    max-width: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    min-width: 20px;
+    background-color: #F7D674;
+    border-radius: 10px;
+}
+
+QPushButton#left_mini:hover
+{
+    background-color: yellow;
+}
+
+QPushButton#left_visit
+{
+    max-width: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    background-color: #6DDF6D;
+    border-radius: 10px;
+}
+
+QPushButton#left_visit:hover
+{
+    background-color: green;
+}
+
+/* 左侧部件整体 将按钮和文字颜色设置为白色，并且将按钮的边框去掉 */
+QWidget#left_widget
+{
+    background-color:slategray;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    /* border-right:2px solid #F76677; */
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+QWidget#left_widget QPushButton
+{
+    border: none;
+    color: white;
+}
+
+QWidget#left_widget QPushButton#left_label
+{
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+QWidget#left_widget QPushButton#left_button:hover
+{
+    border-left: 4px solid red;
+    font-weight: 700;
+}
+
+/* 右侧引导界面 */
+QWidget#right_widget
+{
+
+    background-color: lightgray;
+    border-top: 1px solid darkGray;
+    border-right:1px solid darkGray;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+/* 彩票数据可视化平台标题 */
+QWidget#right_widget QLabel#introduction
+{
+    /* qproperty-alignment: AlignCenter;
+    border: none;
+    font-size: 60px;
+    font-weight: 50000;
+    font-family: '微软雅黑';
+    color: #F76677;   */
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+
+QWidget#shuangseqiu_widget
+{
+    /* background-color: rgba(255, 255, 225, 50%); */
+    background-color: rgba(0, 0, 0, 0.975);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+QWidget#daletou_widget
+{
+    /* background-color: rgba(255, 255, 225, 50%); */
+    background-color: rgba(0, 0, 0, 0.975);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+QWidget#huanleba_widget
+{
+    /* background-color: rgba(255, 255, 225, 50%); */
+    background-color: rgba(0, 0, 0, 0.975);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+QWidget#lingcunwei_widget
+{
+    /* background-color: rgba(255, 255, 225, 50%); */
+    background-color: rgba(0, 0, 0, 0.975);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+QWidget#dayin_widget
+{
+    /* background-color: rgba(255, 255, 225, 50%); */
+    background-color: rgba(0, 0, 0, 0.975);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
